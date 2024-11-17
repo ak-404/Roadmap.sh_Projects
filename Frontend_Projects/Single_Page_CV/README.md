@@ -34,6 +34,9 @@ By completing this project, I gained:
 1. Clone this repository to your local machine.  
 2. Open the `index.html` file in your preferred web browser.  
 
+## Project's URL
+- Here's the project's live url [Single Page CV](https://singel-page-cv0.web.app/)
+
 ---  
 Thank you for checking out my project!  
 If you have any feedback or suggestions, feel free to open an issue or contribute to this repository.
