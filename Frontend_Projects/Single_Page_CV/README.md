@@ -31,7 +31,13 @@ By completing this project, I gained:
 - Familiarity with **Open Graph tags** for better social media sharing.
 
 ## How to View This Project  
-1. Clone this repository to your local machine.  
+1. Clone this repository to your local machine.
+```bash
+   git clone https://github.com/ak-404/Roadmap.sh_Projects.git
+   cd 'Roadmap.sh Projects'
+   cd Frontend_Projects
+   cd Single_Page_CV
+```
 2. Open the `index.html` file in your preferred web browser.  
 
 ## Project's URL
