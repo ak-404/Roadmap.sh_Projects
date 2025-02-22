@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main, .section-container {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+main > h1 {
+  text-align: center;
+  margin: 1rem;
+}
+/* Site header styling - Start */
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-img {
+  width: 2rem;
+  height: auto;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li:not(:last-child)::after {
+  content: "/";
+  margin: 0 0.5rem;
+}
+
+/* Site header styling - End */
+
+/* Intro header styling - Start */
+
+.intro-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Sections styling - Start */
+h2 {
+  margin-bottom: 1rem;
+}
+section {
+  padding: 1rem;
+  border-bottom: 2px solid #000;
+}
+section ul {
+  list-style-type: none;
+}
+section ul li {
+  margin: 0.5rem;
+}
+article {
+  padding: 1rem;
+}
+/* Sections styling -End */
+
+/* Aside styling -Start */
+aside {
+  padding: 1rem;
+}
+.reviews figure {
+  border: 2px solid #000;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+/* Aside styling -End */
+
+/* Contact Form styling -Start */
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+/* Contact Form styling -End */
+
+footer {
+  padding: 1rem;
+  text-align: center;
+}
+/* Media queries */
+
+@media (min-width: 992px) {
+
+  /* Site header styling - Start */
+
+  .site-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo-container {
+    flex-direction: row;
+  }
+  .logo-img {
+    margin-right: 0.5rem;
+  }
+
+  /* Site header styling - End */
+
+  /* Intro header styling - Start */
+  
+  .intro-header {
+    padding: 5rem;
+  }
+
+  /* Intro header styling - End */
+
+  /* Sections styling - Start */
+
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  section {
+    width: 100%;
+    border: 2px solid #000;
+  }
+  /* Sections styling - End */
+
+  /* Aside styling - Start */
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Aside styling - End */
+}

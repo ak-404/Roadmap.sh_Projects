@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Basic HTML Website</title>
+
+    <!-- SEO  Meta Tags-->
+    <meta name="title" content="Contact | Basic HTML Website" />
+    <meta
+      name="description"
+      content="It is the contact page of Basic HTML Website."
+    />
+    <meta name="keywords" content="Software, Developer, Contact" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="logo-container">
+        <img class="logo-img" src="./assets/logo.png" alt="" />
+        <span>Logo</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aritcles.html">Aritcles</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact</h1>
+      <div class="form">
+        <form>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="text" name="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="10"></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>&copy; All rights reserved 2025</footer>
+  </body>
+</html>
